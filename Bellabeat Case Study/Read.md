@@ -2,6 +2,8 @@
 **Author: Aysegul Say**
 **Date: 09, Oct, 2022**
 
+[Tableau Dashboard](https://public.tableau.com/views/BellaFitCasestudy/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link)
+
 
 ## Introduction
 
@@ -219,7 +221,8 @@ ggplot(data=dt2, aes(x=TotalSteps, y = Calories, color=SedentaryMinutes))+
 
 ## SHARE:
 [Tableau Dashboard:](https://public.tableau.com/views/BellaFitCasestudy/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link)
-##ACT:
+
+## ACT:
 
 #Key findings:
 
