@@ -1,2 +1,2 @@
 # Data-Analytics
-this reporsitory covers all case studies.
+this repository covers all case studies.
