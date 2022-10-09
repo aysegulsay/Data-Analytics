@@ -187,6 +187,7 @@ p2<-  ggplot(data = one_max_min_weight) +
 p2 + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 
 ```
+![1](https://user-images.githubusercontent.com/49811721/194776980-a581e3a1-878f-4915-9d28-4b74600661a9.png)
 
 
 5-User with max weight has used the device, and steps=0 is filtered out to understand how much steps user made.
@@ -204,6 +205,7 @@ p<-  ggplot(data=dt4, aes(x=ActivityDate, y=TotalSteps, fill=TotalSteps))+
   labs(title="Daily steps")
 p + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 ```
+![2](https://user-images.githubusercontent.com/49811721/194776998-70494282-b898-4987-b574-88d8a1e3fa8a.png)
 
 6-Since person with maximum weight should burn more  calories than the others.
 ```{r}
@@ -212,6 +214,7 @@ ggplot(data=dt2, aes(x=TotalSteps, y = Calories, color=SedentaryMinutes))+
   stat_smooth(method=lm)+
   scale_color_gradient(low="blue", high="pink")
 ```
+![3](https://user-images.githubusercontent.com/49811721/194777011-e87bbab1-8532-4457-a740-b4dcf81450ff.png)
 
 
 ## SHARE:
